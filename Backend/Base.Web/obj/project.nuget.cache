@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RTjVDUa9ciQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Simon\\Documents\\GitHub\\25-26-pose-probetest-angular-dotnet\\25-26-pose-probetest-angular-dotnet\\Backend\\Base.Web\\Base.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

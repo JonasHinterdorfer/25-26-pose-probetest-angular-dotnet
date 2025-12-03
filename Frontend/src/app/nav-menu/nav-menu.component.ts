@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { DataService } from '../../services/data.service';
+import { DataService } from '../../services/book.service';
 
 @Component({
   selector: 'app-nav-menu',
@@ -11,11 +11,5 @@ import { DataService } from '../../services/data.service';
 })
 export class NavMenuComponent {
 
-  constructor(public dataService: DataService, private router: Router) { }
-
-  onLogout(): void {
-    sessionStorage.removeItem('jwt');
-    this.dataService.loggedInUser = undefined;
-    this.router.navigate(['/login']);
-  }
+  constructor(public dataService: DataService) { }
 }
