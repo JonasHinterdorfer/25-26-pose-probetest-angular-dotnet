@@ -825,19 +825,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simon\\.nuget\\packages\\": {}
+    "/home/jonas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simon\\Documents\\GitHub\\25-26-pose-probetest-angular-dotnet\\25-26-pose-probetest-angular-dotnet\\Backend\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "/tmp/Lerning/25-26-pose-probetest-angular-dotnet/Backend/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Simon\\Documents\\GitHub\\25-26-pose-probetest-angular-dotnet\\25-26-pose-probetest-angular-dotnet\\Backend\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simon\\Documents\\GitHub\\25-26-pose-probetest-angular-dotnet\\25-26-pose-probetest-angular-dotnet\\Backend\\WebAPI\\obj\\",
+      "projectPath": "/tmp/Lerning/25-26-pose-probetest-angular-dotnet/Backend/WebAPI/WebAPI.csproj",
+      "packagesPath": "/home/jonas/.nuget/packages/",
+      "outputPath": "/tmp/Lerning/25-26-pose-probetest-angular-dotnet/Backend/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jonas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -895,24 +895,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.18, 8.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -921,7 +903,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Simon\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/jonas/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
