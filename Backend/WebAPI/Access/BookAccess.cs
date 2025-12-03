@@ -24,16 +24,28 @@ public static class BookAccess
 
         app.MapPost("/api/books", async ([FromBody] BookCreateDto dto, IBookService bookService) =>
         {
-            var book = await bookService.CreateBookAsync(dto);   
-            return Results.Created($"/api/books/{book.Id}", book);
+            try
+            {
+                var book = await bookService.CreateBookAsync(dto);   
+                return Results.Created($"/api/books/{book.Id}", book);
+            }
+            catch (ArgumentException e)
+            {
+                return Results.BadRequest(e.Message);
+            }
         });
 
         app.MapPut("/api/books/{id}", async (int id, [FromBody] BookCreateDto dto, IBookService bookService) =>
         {
-            var book = await bookService.UpdateBookAsync(id, dto);
-            return book is null ? Results.NotFound() : Results.Ok(book);
+            try
+            {
+                var book = await bookService.UpdateBookAsync(id, dto);
+                return book is null ? Results.NotFound() : Results.Ok(book);
+            }
+            catch (ArgumentException e)
+            {
+                return Results.BadRequest(e.Message);
+            }
         });
-
-
     }
 }
